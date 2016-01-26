@@ -28,6 +28,6 @@
 See here: https://mail-archives.apache.org/mod_mbox/tomcat-users/201512.mbox/%3CCAB+Y2gJc+Q5THq6a2AXpVO5xYVZ85xQVkPBB1B_KdxSfZnPRqg@mail.gmail.com%3E
 
 ##### *Eclipse*
-* You may have to replace the PATH in the run configuration to ensure the maven process working correctly - Example for MAC OS X: "Right click on project" > Run as > Maven build... > "Environment" tab > "Select..." button > select "PATH" > Edit > "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" > "Replace native environment with specified environment" - otherwise you may receive a warning that ruby / sass is not installed
+* You may have to replace the PATH in the run configuration to ensure the maven process working correctly - Example for MAC OS X: "Right click on project" > Run as > Maven build... > "Environment" tab > "Select..." button > select "PATH" > Edit > "/usr/local/bin:$PATH" > "Replace native environment with specified environment" - otherwise you may receive a warning that ruby / sass is not installed
 
 See here: http://superuser.com/questions/28344/path-env-variable-on-mac-os-x-and-or-eclipse
